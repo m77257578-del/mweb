@@ -617,12 +617,8 @@ export default function App() {
         <main className="flex-1">
           {/* HERO SECTION */}
           <section className="relative bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 text-white py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
-            <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#f59e0b_1px,transparent_1px)] [background-size:16px_16px]"></div>
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
               <div className="space-y-6 text-right">
-                <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-bold">
-                  <ShieldCheck className="w-4 h-4" /> معتمدون رسمياً من وزارة العدل والهيئة السعودية للمحامين
-                </span>
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight">
                   العدالة والاحترافية <br />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">
